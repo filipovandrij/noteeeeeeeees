@@ -1,0 +1,12 @@
+.game-form > div {
+  display: flex;
+  align-items: center;
+}
+
+h4 {
+  width: 340px;
+}
+
+.input-value > input {
+  margin: 0 8px;
+}

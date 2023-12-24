@@ -1,0 +1,10 @@
+.table-container {
+  overflow-y: auto;
+  max-height: 500px;
+
+  margin: 25px auto;
+  width: 1131px;
+}
+.MuiPaper-root {
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.4);
+}

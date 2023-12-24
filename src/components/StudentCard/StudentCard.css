@@ -1,0 +1,55 @@
+.card-content {
+  padding: 0 16px;
+}
+
+.card-content > div {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.card-content > .name-block {
+  margin: 0;
+}
+
+.card-content > div > img {
+  width: 33px;
+  height: 33px;
+}
+
+.title-content {
+  width: 95px;
+  display: inline-block;
+  text-align: left;
+}
+
+.price_place {
+  text-align: center;
+  flex-direction: column;
+}
+.price_place > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-span {
+  display: none; /* Изначально скрываем блок с текстом */
+  border: 1px solid #cfc35a;
+  border-radius: 5px;
+  background-color: #eeeba494;
+  color: #bbad35;
+  font-size: 10px;
+  padding: 0 4px;
+  height: 15px;
+}
+
+.status-image:hover + .hover-span {
+  display: inline-block; /* При наведении на изображение показываем блок .hover-span */
+}
+
+.actions-contaner {
+  display: flex;
+  justify-content: center;
+}

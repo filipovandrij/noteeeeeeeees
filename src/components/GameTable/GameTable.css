@@ -1,0 +1,56 @@
+.table-container {
+  overflow-y: auto;
+  max-height: 500px;
+
+  margin: 25px auto;
+  width: 70%;
+}
+.marks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MuiTableCell-root {
+  padding: 7px;
+}
+
+.main-scroll {
+  position: absolute;
+  z-index: 3;
+  top: 67px;
+  right: 53px;
+}
+
+.search-input {
+  position: absolute;
+  z-index: 3;
+  top: 78px;
+  left: 44px;
+  height: "57px";
+}
+.MuiTextField-root {
+  width: 125px;
+}
+
+.head-row {
+  height: 100px;
+  position: "relative";
+}
+
+.head-cell {
+  padding-bottom: 79px;
+  input {
+    width: 108px;
+  }
+}
+
+.visible-area {
+  .MuiTableCell-root {
+    border: none;
+  }
+}
+
+.MuiPaper-root {
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.4);
+}
